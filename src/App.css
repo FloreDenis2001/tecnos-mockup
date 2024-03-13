@@ -1,38 +1,384 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,500;1,900&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+  background-color: #ffffff;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+/* App.scss */
+.background-video {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  overflow: hidden;
+}
+.background-video video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.background-video::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.header__information {
+  display: flex;
+  justify-content: space-between;
+  background-color: #cc3333;
+  padding-block: 1rem;
+  padding-inline: 2rem;
+}
+.header__information__left, .header__information__right {
+  display: flex;
+  flex-direction: row;
+}
+.header__information__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+  padding-inline: 1rem;
+  border-right: 1px solid #ffffff;
+  font-weight: 400;
+  font-family: "Red Hat Display", sans-serif;
+}
+.header__information__item svg {
+  font-size: 1.2rem;
+}
+.header__navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-block: 1rem;
+}
+.header__nav .dropdown {
+  position: relative;
+}
+.header__nav .dropdown:hover .dropdown-content {
+  display: block;
+}
+.header__nav .dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 51;
+  background: #ffffff;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  padding: 0.8rem;
+  width: 30rem;
+}
+.header__nav .dropdown .dropdown-content li {
+  list-style: none;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  padding-block: 0.5rem;
+}
+.header__nav .dropdown .dropdown-content li:hover > * {
+  background: linear-gradient(150deg, #e98686 0%, #cc3333 54%);
+  color: #ffffff;
+}
+.header__nav .dropdown .dropdown-content a {
+  text-decoration: none;
+  padding: 8px;
+  display: block;
+}
+.header__nav__list {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+}
+.header__nav__item {
+  list-style: none;
+}
+.header__nav__item:hover > * {
+  background: linear-gradient(150deg, #e98686 0%, #cc3333 54%);
+  color: #ffffff;
+}
+.header__nav__item a {
+  border-radius: 0.5rem 0 0.5rem 0;
+  padding: 0.8rem;
+  text-decoration: none;
+  color: #1b1b1b;
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-family: "Red Hat Display", sans-serif;
+}
+.header__searchBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  padding-inline: 1rem;
+  border-right: 1px solid #ffffff;
+  font-weight: 400;
+  font-family: "Red Hat Display", sans-serif;
+  color: #1b1b1b;
+  font-size: 1.2rem;
+}
+.header__searchBox input {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+}
+.header__searchBox button {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  background: linear-gradient(150deg, #e98686 0%, #cc3333 54%);
+  color: #ffffff;
+  font-weight: 800;
+  font-family: "Red Hat Display", sans-serif;
+}
+.header__overlay {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 50;
+}
+.header__overlay__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.banners {
+  position: relative;
+}
+.banners__container {
+  position: absolute;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 2rem;
+  transform: translateY(-42.5%);
+  z-index: 400;
+}
+.banners__card {
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+  width: 20%;
+  min-width: 32rem;
+  min-height: 22rem;
+  z-index: 500;
+  box-shadow: 0px 2px 22px 8px rgba(0, 0, 0, 0.39);
+}
+.banners__card__header {
+  background: linear-gradient(150deg, #e98686 0%, #cc3333 54%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+.banners__card__header h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banners__card__header svg {
+  font-size: 4rem;
+  color: #ffffff;
+}
+.banners__card__content p {
+  font-size: 1.5rem;
+  color: #5f5f5f;
+  padding: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.webinars {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+  margin-top: 18rem;
+}
+.webinars__title {
+  font-size: 2rem;
+  color: #1b1b1b;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #cc3333;
+}
+.webinars__container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.webinars__card {
+  position: relative;
+  width: 30rem;
+  height: 20rem;
+  margin: 1rem;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+.webinars__card:hover .card__background img {
+  transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+}
+.webinars__card .card__background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.webinars__card .card__background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(65%);
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.webinars__card .card__content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  color: #fff;
+  z-index: 1;
+}
+.webinars__card .card__content h3 {
+  font-size: 1.6rem;
+}
+.webinars__card .card__content p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.industry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+  margin-top: 18rem;
 }
+.industry__title {
+  font-size: 2rem;
+  color: #1b1b1b;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #cc3333;
+}
+.industry__container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.industry__card {
+  position: relative;
+  width: 30rem;
+  height: 20rem;
+  margin: 1rem;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+.industry__card:hover .card__background img {
+  transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+}
+.industry__card .card__background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.industry__card .card__background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(65%);
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.industry__card .card__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1.5rem;
+  color: #fff;
+  z-index: 1;
+  width: 100%;
+}
+.industry__card .card__content h3 {
+  text-align: center;
+  font-size: 2rem;
+  transition: border 0.1s ease-in-out;
+}
+.industry__card .card__content h3:hover {
+  border-radius: 1rem 0 1rem 0;
+  border: 2px solid #ffffff;
+  padding: 1.3rem;
+}
+
+/*# sourceMappingURL=App.css.map */
