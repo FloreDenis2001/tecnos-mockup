@@ -3,6 +3,7 @@ import React from "react";
 import "./App.css";
 import video from "./assets/backgroundVideo.mp4";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import {
   faAddressBook,
   faCalendarDays,
@@ -217,7 +218,86 @@ function App() {
           </div>
         </div>
       </section>
+      <section className="industry">
+        <div className="industry__title">
+          <h2>Industrii</h2>
+        </div>
+        <div className="industry__container">
+          <div className="industry__card__number1">
+            <img src={industrie1} alt="Webinar" />
+            <div className="industry__card__number1__content">
+              <h3>Titlul Industrie</h3>
+              <p>Numele | Data | Ora | Durata |</p>
+            </div>
+            <a href=""></a>
+          </div>
 
+          <div className="industry__card__number2">
+            <div className="industry__card__number2__thumb">
+              <img src={industrie2} alt="Industrie" />
+            </div>
+            <div className="industry__card__number2__body">
+              <div className="industry__card__number2__body__date">
+                <a href="#">15.12.2025</a>
+              </div>
+              <h2 className="industry__card__number2__body__title">
+                Titlu Industrie
+              </h2>
+              <h4 className="industry__card__number2__body__subtitle">
+                Subtitlu Industrie
+              </h4>
+              <p className="industry__card__number2__body__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                quia id nam corrupti. Assumenda consequatur, unde quos veritatis
+                atque doloribus quae animi possimus autem placeat, suscipit
+                officia debitis laudantium cupiditate.
+              </p>
+            </div>
+          </div>
+
+          <div className="industry__card__number3">
+            <div className="industry__card__number3__image">
+              <img src={industrie3} alt="Industrie" />
+            </div>
+
+            <div className="industry__card__number3__details">
+              <h3>Titlu Industrie</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos adipisci architecto nemo unde dicta quaerat
+                deserunt, optio provident facilis quam aut corporis aliquam
+                placeat deleniti nisi doloribus, fugiat neque voluptas?
+              </p>
+            </div>
+          </div>
+
+          <div className="industry__card__number4">
+            <img src={industrie4} alt="Industrie" />
+            <div className="industry__card__number4__content">
+              <h3>Titlul Industrie</h3>
+              <p>Numele | Data | Ora | Durata |</p>
+            </div>
+            <a href="#"></a>
+          </div>
+          <div className="industry__card__number5">
+            <img src={industrie5} alt="Industrie" />
+            <div className="industry__card__number5__content">
+              <h3>Titlul Industrie</h3>
+              <p>Numele | Data | Ora | Durata |</p>
+            </div>
+            <a href="#"></a>
+          </div>
+
+          <div className="industry__card__number6">
+            <img src={industrie6} alt="Industrie" />
+            <div className="industry__card__number6__content">
+              <h3>Titlul Industrie</h3>
+              <p>Numele | Data | Ora | Durata |</p>
+            </div>
+            <a href="#"></a>
+          </div>
+        </div>
+      </section>
       <section className="webinars">
         <div className="webinars__title">
           <h2>Webinarii Gratuite</h2>
@@ -285,112 +365,78 @@ function App() {
           <h2>Industrii</h2>
         </div>
         <div className="industry__container">
-          <div className="industry__card">
-            <div className="card__background">
-              <img src={industrie1} alt="Webinar" />
-            </div>
-            <div className="card__content">
+          <div className="industry__card__number1">
+            <img src={industrie1} alt="Webinar" />
+            <div className="industry__card__number1__content">
               <h3>Titlul Industrie</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas sint id totam est explicabo distinctio dolorem dolorum
-                eligendi nam? Et, maiores cum quae eum nesciunt unde atque!
-                Consectetur, modi ipsam!
+              <p>Numele | Data | Ora | Durata |</p>
+            </div>
+            <a href=""></a>
+          </div>
+
+          <div className="industry__card__number2">
+            <div className="industry__card__number2__thumb">
+              <img src={industrie2} alt="Industrie" />
+            </div>
+            <div className="industry__card__number2__body">
+              <div className="industry__card__number2__body__date">
+                <a href="#">15.12.2025</a>
+              </div>
+              <h2 className="industry__card__number2__body__title">
+                Titlu Industrie
+              </h2>
+              <h4 className="industry__card__number2__body__subtitle">
+                Subtitlu Industrie
+              </h4>
+              <p className="industry__card__number2__body__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                quia id nam corrupti. Assumenda consequatur, unde quos veritatis
+                atque doloribus quae animi possimus autem placeat, suscipit
+                officia debitis laudantium cupiditate.
               </p>
             </div>
           </div>
-          <div className="industry__card">
-            <div className="card__background">
-              <img src={industrie2} alt="Webinar" />
+
+          <div className="industry__card__number3">
+            <div className="industry__card__number3__image">
+              <img src={industrie3} alt="Industrie" />
             </div>
-            <div className="card__content">
-              <h3>Titlul Industrie</h3>
-            </div>
-          </div>
-          <div className="industry__card">
-            <div className="card__background">
-              <img src={industrie3} alt="Webinar" />
-            </div>
-            <div className="card__content">
-              <h3>Titlul Industrie</h3>
-            </div>
-          </div>
-          <div className="industry__card">
-            <div className="card__background">
-              <img src={industrie4} alt="Webinar" />
-            </div>
-            <div className="card__content">
-              <h3>Titlul Industrie</h3>
-            </div>
-          </div>
-          <div className="industry__card">
-            <div className="card__background">
-              <img src={industrie5} alt="Webinar" />
-            </div>
-            <div className="card__content">
-              <h3>Titlul Industrie</h3>
-            </div>
-          </div>
-          <div className="industry__card">
-            <div className="card__background">
-              <img src={industrie6} alt="Webinar" />
-            </div>
-            <div className="card__content">
-              <h3>Titlul Industrie</h3>
+
+            <div className="industry__card__number3__details">
+              <h3>Titlu Industrie</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos adipisci architecto nemo unde dicta quaerat
+                deserunt, optio provident facilis quam aut corporis aliquam
+                placeat deleniti nisi doloribus, fugiat neque voluptas?
+              </p>
             </div>
           </div>
 
-          <div className="card__collection clear-fix">
-            <div className="cards cards--two">
-              <img
-                src="https://images.unsplash.com/photo-1504703395950-b89145a5425b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d702cb99ca804bffcfa8820c46483264&auto=format&fit=crop&w=651&q=80"
-                className="img-responsive"
-                alt="Cards Image"
-              />
-              <span className="cards--two__rect"></span>
-              <span className="cards--two__tri"></span>
-              <p>Lucy Grace</p>
-              <ul className="cards__list">
-                <li>
-                  <i className="fab fa-facebook-f"></i>
-                </li>
-                <li>
-                  <i className="fab fa-twitter"></i>
-                </li>
-                <li>
-                  <i className="fab fa-instagram"></i>
-                </li>
-                <li>
-                  <i className="fab fa-linkedin-in"></i>
-                </li>
-              </ul>
+          <div className="industry__card__number4">
+            <img src={industrie4} alt="Industrie" />
+            <div className="industry__card__number4__content">
+              <h3>Titlul Industrie</h3>
+              <p>Numele | Data | Ora | Durata |</p>
             </div>
-            <div className="cards cards--three">
-              <img
-                src="https://images.unsplash.com/photo-1480408144303-d874c5e12201?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=575213599ae24b3dbdfd84be79425c50&auto=format&fit=crop&w=634&q=80"
-                className="img-responsive"
-                alt=""
-              />
-              <span className="cards--three__rect-1">
-                <span className="shadow-1"></span>
-                <p>Chris Levnon</p>
-              </span>
-              <span className="cards--three__rect-2">
-                <span className="shadow-2"></span>
-              </span>
-              <span className="cards--three__circle"></span>
-              <ul className="cards--three__list">
-                <li>
-                  <i className="fab fa-facebook-f"></i>
-                </li>
-                <li>
-                  <i className="fab fa-twitter"></i>
-                </li>
-                <li>
-                  <i className="fab fa-linkedin-in"></i>
-                </li>
-              </ul>
+            <a href="#"></a>
+          </div>
+          <div className="industry__card__number5">
+            <img src={industrie5} alt="Industrie" />
+            <div className="industry__card__number5__content">
+              <h3>Titlul Industrie</h3>
+              <p>Numele | Data | Ora | Durata |</p>
             </div>
+            <a href="#"></a>
+          </div>
+
+          <div className="industry__card__number6">
+            <img src={industrie6} alt="Industrie" />
+            <div className="industry__card__number6__content">
+              <h3>Titlul Industrie</h3>
+              <p>Numele | Data | Ora | Durata |</p>
+            </div>
+            <a href="#"></a>
           </div>
         </div>
       </section>
