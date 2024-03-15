@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/tecnos-mockup/static/css/main.c26c1732.css",
+    "main.js": "/tecnos-mockup/static/js/main.2dcd6013.js",
+    "static/js/453.f8463f3d.chunk.js": "/tecnos-mockup/static/js/453.f8463f3d.chunk.js",
+    "static/media/backgroundVideo.mp4": "/tecnos-mockup/static/media/backgroundVideo.8ba25136e09f41a81f3c.mp4",
+    "static/media/webinar6.png": "/tecnos-mockup/static/media/webinar6.9729222f70d477c39363.png",
+    "static/media/webinar4.png": "/tecnos-mockup/static/media/webinar4.3450656a99496c1e65a0.png",
+    "static/media/webinar2.png": "/tecnos-mockup/static/media/webinar2.7736b551b72c50f065e3.png",
+    "static/media/webinar5.png": "/tecnos-mockup/static/media/webinar5.8fa57d2000836100279f.png",
+    "static/media/industrie4.jpg": "/tecnos-mockup/static/media/industrie4.a7fc7b788573a148e522.jpg",
+    "static/media/industrie3.jpg": "/tecnos-mockup/static/media/industrie3.df01a60bd94db19928b7.jpg",
+    "static/media/industrie6.jpg": "/tecnos-mockup/static/media/industrie6.e3098d93ef0bebb2619a.jpg",
+    "static/media/webinar1.jpg": "/tecnos-mockup/static/media/webinar1.aa0ed5f97be42830eb9a.jpg",
+    "static/media/industrie2.jpg": "/tecnos-mockup/static/media/industrie2.970eb131a348441a8712.jpg",
+    "static/media/industrie1.jpg": "/tecnos-mockup/static/media/industrie1.d423531fe9aa918df25d.jpg",
+    "static/media/industrie5.jpg": "/tecnos-mockup/static/media/industrie5.e5952297817f591990c4.jpg",
+    "static/media/webinar3.jpg": "/tecnos-mockup/static/media/webinar3.02799134f7a41afea1cc.jpg",
+    "index.html": "/tecnos-mockup/index.html",
+    "main.c26c1732.css.map": "/tecnos-mockup/static/css/main.c26c1732.css.map",
+    "main.2dcd6013.js.map": "/tecnos-mockup/static/js/main.2dcd6013.js.map",
+    "453.f8463f3d.chunk.js.map": "/tecnos-mockup/static/js/453.f8463f3d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c26c1732.css",
+    "static/js/main.2dcd6013.js"
+  ]
+}
