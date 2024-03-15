@@ -58,27 +58,77 @@
 
   .card__content {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
     padding: 1.5rem;
     color: #fff;
     z-index: 1;
     width: 100%;
 
-
     h3 {
-        text-align: center;
+      text-align: center;
       font-size: 2rem;
-      transition: border 0.1s ease-in-out;
-
-      &:hover {
-        border-radius: 1rem 0 1rem 0;
-        border: 2px solid $color-white;
-        padding: 1.3rem; 
-      }
     }
 
-    
+    p {
+      font-size: 1.2rem;
+      display: none;
+      transition: all 0.5s;
+    }
   }
+}
+
+.industry__card:nth-child(1):hover p {
+  display: block;
+  padding-top: 1rem;
+}
+.industry__card:nth-child(1):hover img {
+  filter: brightness(60%);
+}
+
+.industry__card:nth-child(2) .card__content {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  padding: 1.5rem;
+  color: #fff;
+  z-index: 1;
+  width: 80%;
+}
+.industry__card:nth-child(2):hover {
+  filter: brightness(120%);
+  transition: filter 0.3s ease;
+}
+.industry__card:nth-child(2):hover .card__content {
+  background:rgba($color-black, 0.5);
+  border: 1px solid $color-white;
+  border-radius: 0.2rem;
+  transition: all 0.5s;
+}
+
+.industry__card:nth-child(3):hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.industry__card:nth-child(4):hover {
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.industry__card:nth-child(5):hover {
+  transform: scale(1.1);
+  border: 2px solid #ffcc00;
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.industry__card:nth-child(6):hover {
+  transform: rotate(-5deg);
+  transition: transform 0.3s ease;
 }

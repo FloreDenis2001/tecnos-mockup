@@ -29,19 +29,19 @@
   
 .webinars__card {
     position: relative;
-    width: 30rem;
-    height: 20rem;
+    width: 35rem;
+    height: 17.5rem;
     margin: 1rem;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
    
-    &:hover {
-      .card__background img {
-        transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+    // &:hover {
+    //   .card__background img {
+    //     transform: matrix(1.1, 0, 0, 1.1, 0, 0);
       
-      }
+    //   }
   
-    }
+    // }
   
     .card__background {
       position: relative;
@@ -79,7 +79,5 @@
     }
   }
   
-  
-  
-  
-  
+
+
