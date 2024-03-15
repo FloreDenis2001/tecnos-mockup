@@ -13,19 +13,18 @@ import {
   faAngleDown,
   faGears,
 } from "@fortawesome/free-solid-svg-icons";
-import webinar1 from "../src/assets/webinar1.jpg"
-import webinar2 from "../src/assets/webinar2.png"
-import webinar3 from "../src/assets/webinar3.jpg"
-import webinar4 from "../src/assets/webinar4.png"
-import webinar5 from "../src/assets/webinar5.png"
-import webinar6 from "../src/assets/webinar6.png"
-import industrie1 from "../src/assets/industrie1.jpg"
-import industrie2 from "../src/assets/industrie2.jpg"
-import industrie3 from "../src/assets/industrie3.jpg"
-import industrie4 from "../src/assets/industrie4.jpg"
-import industrie5 from "../src/assets/industrie5.jpg"
-import industrie6 from "../src/assets/industrie6.jpg"
-
+import webinar1 from "../src/assets/webinar1.jpg";
+import webinar2 from "../src/assets/webinar2.png";
+import webinar3 from "../src/assets/webinar3.jpg";
+import webinar4 from "../src/assets/webinar4.png";
+import webinar5 from "../src/assets/webinar5.png";
+import webinar6 from "../src/assets/webinar6.png";
+import industrie1 from "../src/assets/industrie1.jpg";
+import industrie2 from "../src/assets/industrie2.jpg";
+import industrie3 from "../src/assets/industrie3.jpg";
+import industrie4 from "../src/assets/industrie4.jpg";
+import industrie5 from "../src/assets/industrie5.jpg";
+import industrie6 from "../src/assets/industrie6.jpg";
 
 function App() {
   return (
@@ -173,206 +172,228 @@ function App() {
 
       <section className="banners">
         <div className="banners__container">
-        <div className="banners__card">
-          <div className="banners__card__header">
-            <FontAwesomeIcon icon={faCertificate} />
-            <h3>GARANTIA CALITATI</h3>
+          <div className="banners__card">
+            <div className="banners__card__header">
+              <FontAwesomeIcon icon={faCertificate} />
+              <h3>GARANTIA CALITATI</h3>
+            </div>
+            <div className="banners__card__content">
+              <p>
+                Colaborarile pe termen lung si increderea clientilor in noi si
+                in produsele noastre ne obliga sa fim mereu mai buni in tot ceea
+                ce inseamna angajamentul nostru de calitate fata de partenerii
+                nostri.
+              </p>
+            </div>
           </div>
-          <div className="banners__card__content">
-            <p>
-              Colaborarile pe termen lung si increderea clientilor in noi si in
-              produsele noastre ne obliga sa fim mereu mai buni in tot ceea ce
-              inseamna angajamentul nostru de calitate fata de partenerii
-              nostri.
-            </p>
+          <div className="banners__card">
+            <div className="banners__card__header">
+              <FontAwesomeIcon icon={faHeadset} />
+              <h3>CONSULTANTA TEHNICA</h3>
+            </div>
+            <div className="banners__card__content">
+              <p>
+                Ofertele intocmite pentru clientii nostri sunt rezultatul unei
+                atente analize a nevoilor acestora si o optima solutie
+                tehnico-economica stabilita prin discutii ale clientului cu
+                echipa noastra de vanzari.
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="banners__card">
-          <div className="banners__card__header">
-            <FontAwesomeIcon icon={faHeadset} />
-            <h3>CONSULTANTA TEHNICA</h3>
-          </div>
-          <div className="banners__card__content">
-            <p>
-              Ofertele intocmite pentru clientii nostri sunt rezultatul unei
-              atente analize a nevoilor acestora si o optima solutie
-              tehnico-economica stabilita prin discutii ale clientului cu echipa
-              noastra de vanzari.
-            </p>
-          </div>
-        </div>
 
-        <div className="banners__card">
-          <div className="banners__card__header">
-            <FontAwesomeIcon icon={faGears} />
-            <h3>SERVICII DE LIVRARE</h3>
+          <div className="banners__card">
+            <div className="banners__card__header">
+              <FontAwesomeIcon icon={faGears} />
+              <h3>SERVICII DE LIVRARE</h3>
+            </div>
+            <div className="banners__card__content">
+              <p>
+                Colaborarile pe termen lung si increderea clientilor in noi si
+                in produsele noastre ne obliga sa fim mereu mai buni in tot ceea
+                ce inseamna angajamentul nostru de calitate fata de partenerii
+                nostri.
+              </p>
+            </div>
           </div>
-          <div className="banners__card__content">
-            <p>
-              Colaborarile pe termen lung si increderea clientilor in noi si in
-              produsele noastre ne obliga sa fim mereu mai buni in tot ceea ce
-              inseamna angajamentul nostru de calitate fata de partenerii
-              nostri.
-            </p>
-          </div>
-        </div>
         </div>
       </section>
 
       <section className="webinars">
-      <div className="webinars__title">
-        <h2>Webinarii Gratuite</h2>
-      </div>
-      <div className="webinars__container">
-        <div className="webinars__card">
-          <div className="card__background">
-            <img src={webinar1} alt="Webinar" />
+        <div className="webinars__title">
+          <h2>Webinarii Gratuite</h2>
+        </div>
+        <div className="webinars__container">
+          <div className="webinars__card">
+            <div className="card__background">
+              <img src={webinar1} alt="Webinar" />
+            </div>
+            <div className="card__content">
+              <h3>Titlul Webinarului</h3>
+              <p>Descrierea scurtă a webinarului.</p>
+            </div>
           </div>
-          <div className="card__content">
-            <h3>Titlul Webinarului</h3>
-            <p>Descrierea scurtă a webinarului.</p>
+          <div className="webinars__card">
+            <div className="card__background">
+              <img src={webinar2} alt="Webinar" />
+            </div>
+            <div className="card__content">
+              <h3>Titlul Webinarului</h3>
+              <p>Descrierea scurtă a webinarului.</p>
+            </div>
+          </div>
+          <div className="webinars__card">
+            <div className="card__background">
+              <img src={webinar3} alt="Webinar" />
+            </div>
+            <div className="card__content">
+              <h3>Titlul Webinarului</h3>
+              <p>Descrierea scurtă a webinarului.</p>
+            </div>
+          </div>
+          <div className="webinars__card">
+            <div className="card__background">
+              <img src={webinar4} alt="Webinar" />
+            </div>
+            <div className="card__content">
+              <h3>Titlul Webinarului</h3>
+              <p>Descrierea scurtă a webinarului.</p>
+            </div>
+          </div>
+          <div className="webinars__card">
+            <div className="card__background">
+              <img src={webinar5} alt="Webinar" />
+            </div>
+            <div className="card__content">
+              <h3>Titlul Webinarului</h3>
+              <p>Descrierea scurtă a webinarului.</p>
+            </div>
+          </div>
+          <div className="webinars__card">
+            <div className="card__background">
+              <img src={webinar6} alt="Webinar" />
+            </div>
+            <div className="card__content">
+              <h3>Titlul Webinarului</h3>
+              <p>Descrierea scurtă a webinarului.</p>
+            </div>
           </div>
         </div>
-        <div className="webinars__card">
-          <div className="card__background">
-            <img src={webinar2} alt="Webinar" />
-          </div>
-          <div className="card__content">
-            <h3>Titlul Webinarului</h3>
-            <p>Descrierea scurtă a webinarului.</p>
-          </div>
-        </div>
-        <div className="webinars__card">
-          <div className="card__background">
-            <img src={webinar3} alt="Webinar" />
-          </div>
-          <div className="card__content">
-            <h3>Titlul Webinarului</h3>
-            <p>Descrierea scurtă a webinarului.</p>
-          </div>
-        </div>
-        <div className="webinars__card">
-          <div className="card__background">
-            <img src={webinar4} alt="Webinar" />
-          </div>
-          <div className="card__content">
-            <h3>Titlul Webinarului</h3>
-            <p>Descrierea scurtă a webinarului.</p>
-          </div>
-        </div>
-        <div className="webinars__card">
-          <div className="card__background">
-            <img src={webinar5} alt="Webinar" />
-          </div>
-          <div className="card__content">
-            <h3>Titlul Webinarului</h3>
-            <p>Descrierea scurtă a webinarului.</p>
-          </div>
-        </div>
-        <div className="webinars__card">
-          <div className="card__background">
-            <img src={webinar6} alt="Webinar" />
-          </div>
-          <div className="card__content">
-            <h3>Titlul Webinarului</h3>
-            <p>Descrierea scurtă a webinarului.</p>
-          </div>
-        </div>
-      
-       
-      </div>
-    </section>
-
-
+      </section>
 
       <section className="industry">
-      <div className="industry__title">
-        <h2>Industrii</h2>
-      </div>
-      <div className="industry__container">
-        <div className="industry__card">
-          <div className="card__background">
-            <img src={industrie1} alt="Webinar" />
+        <div className="industry__title">
+          <h2>Industrii</h2>
+        </div>
+        <div className="industry__container">
+          <div className="industry__card">
+            <div className="card__background">
+              <img src={industrie1} alt="Webinar" />
+            </div>
+            <div className="card__content">
+              <h3>Titlul Industrie</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas sint id totam est explicabo distinctio dolorem dolorum
+                eligendi nam? Et, maiores cum quae eum nesciunt unde atque!
+                Consectetur, modi ipsam!
+              </p>
+            </div>
           </div>
-          <div className="card__content">
-            <h3>Titlul Industrie</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sint id totam est explicabo distinctio dolorem dolorum eligendi nam? Et, maiores cum quae eum nesciunt unde atque! Consectetur, modi ipsam!</p>
+          <div className="industry__card">
+            <div className="card__background">
+              <img src={industrie2} alt="Webinar" />
+            </div>
+            <div className="card__content">
+              <h3>Titlul Industrie</h3>
+            </div>
+          </div>
+          <div className="industry__card">
+            <div className="card__background">
+              <img src={industrie3} alt="Webinar" />
+            </div>
+            <div className="card__content">
+              <h3>Titlul Industrie</h3>
+            </div>
+          </div>
+          <div className="industry__card">
+            <div className="card__background">
+              <img src={industrie4} alt="Webinar" />
+            </div>
+            <div className="card__content">
+              <h3>Titlul Industrie</h3>
+            </div>
+          </div>
+          <div className="industry__card">
+            <div className="card__background">
+              <img src={industrie5} alt="Webinar" />
+            </div>
+            <div className="card__content">
+              <h3>Titlul Industrie</h3>
+            </div>
+          </div>
+          <div className="industry__card">
+            <div className="card__background">
+              <img src={industrie6} alt="Webinar" />
+            </div>
+            <div className="card__content">
+              <h3>Titlul Industrie</h3>
+            </div>
+          </div>
+
+          <div className="card__collection clear-fix">
+            <div className="cards cards--two">
+              <img
+                src="https://images.unsplash.com/photo-1504703395950-b89145a5425b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d702cb99ca804bffcfa8820c46483264&auto=format&fit=crop&w=651&q=80"
+                className="img-responsive"
+                alt="Cards Image"
+              />
+              <span className="cards--two__rect"></span>
+              <span className="cards--two__tri"></span>
+              <p>Lucy Grace</p>
+              <ul className="cards__list">
+                <li>
+                  <i className="fab fa-facebook-f"></i>
+                </li>
+                <li>
+                  <i className="fab fa-twitter"></i>
+                </li>
+                <li>
+                  <i className="fab fa-instagram"></i>
+                </li>
+                <li>
+                  <i className="fab fa-linkedin-in"></i>
+                </li>
+              </ul>
+            </div>
+            <div className="cards cards--three">
+              <img
+                src="https://images.unsplash.com/photo-1480408144303-d874c5e12201?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=575213599ae24b3dbdfd84be79425c50&auto=format&fit=crop&w=634&q=80"
+                className="img-responsive"
+                alt=""
+              />
+              <span className="cards--three__rect-1">
+                <span className="shadow-1"></span>
+                <p>Chris Levnon</p>
+              </span>
+              <span className="cards--three__rect-2">
+                <span className="shadow-2"></span>
+              </span>
+              <span className="cards--three__circle"></span>
+              <ul className="cards--three__list">
+                <li>
+                  <i className="fab fa-facebook-f"></i>
+                </li>
+                <li>
+                  <i className="fab fa-twitter"></i>
+                </li>
+                <li>
+                  <i className="fab fa-linkedin-in"></i>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div className="industry__card">
-          <div className="card__background">
-            <img src={industrie2} alt="Webinar" />
-          </div>
-          <div className="card__content">
-            <h3>Titlul Industrie</h3>
-          </div>
-        </div>
-        <div className="industry__card">
-          <div className="card__background">
-            <img src={industrie3} alt="Webinar" />
-          </div>
-          <div className="card__content">
-            <h3>Titlul Industrie</h3>
-          </div>
-        </div>
-        <div className="industry__card">
-          <div className="card__background">
-            <img src={industrie4} alt="Webinar" />
-          </div>
-          <div className="card__content">
-            <h3>Titlul Industrie</h3>
-          </div>
-        </div>
-        <div className="industry__card">
-          <div className="card__background">
-            <img src={industrie5} alt="Webinar" />
-          </div>
-          <div className="card__content">
-            <h3>Titlul Industrie</h3>
-          </div>
-        </div>
-        <div className="industry__card">
-          <div className="card__background">
-            <img src={industrie6} alt="Webinar" />
-          </div>
-          <div className="card__content">
-            <h3>Titlul Industrie</h3>
-          </div>
-        </div>
-       
-      
-        <div className="card__collection clear-fix">
-<div className="cards cards--two">
-    <img src="https://images.unsplash.com/photo-1504703395950-b89145a5425b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d702cb99ca804bffcfa8820c46483264&auto=format&fit=crop&w=651&q=80" className="img-responsive" alt="Cards Image"/>
-    <span className="cards--two__rect"></span>
-    <span className="cards--two__tri"></span>
-    <p>Lucy Grace</p>
-    <ul className="cards__list">
-      <li><i className="fab fa-facebook-f"></i></li>
-      <li><i className="fab fa-twitter"></i></li>
-      <li><i className="fab fa-instagram"></i></li>
-      <li><i className="fab fa-linkedin-in"></i></li>
-    </ul>
-  </div>
-  <div className="cards cards--three">
-    <img src="https://images.unsplash.com/photo-1480408144303-d874c5e12201?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=575213599ae24b3dbdfd84be79425c50&auto=format&fit=crop&w=634&q=80" className="img-responsive" alt=""/>
-    <span className="cards--three__rect-1">
-      <span className="shadow-1"></span>
-      <p>Chris Levnon</p>
-    </span>
-    <span className="cards--three__rect-2">
-      <span className="shadow-2"></span>
-    </span>
-    <span className="cards--three__circle"></span>
-    <ul className="cards--three__list">
-      <li><i className="fab fa-facebook-f"></i></li>
-      <li><i className="fab fa-twitter"></i></li>
-      <li><i className="fab fa-linkedin-in"></i></li>
-    </ul>
-  </div>
-</div>
-      </div>
-    </section>
+      </section>
     </>
   );
 }
