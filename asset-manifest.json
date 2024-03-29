@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/tecnos-mockup/static/css/main.c26c1732.css",
-    "main.js": "/tecnos-mockup/static/js/main.2dcd6013.js",
+    "main.css": "/tecnos-mockup/static/css/main.0927b99d.css",
+    "main.js": "/tecnos-mockup/static/js/main.b9445c7f.js",
     "static/js/453.f8463f3d.chunk.js": "/tecnos-mockup/static/js/453.f8463f3d.chunk.js",
     "static/media/backgroundVideo.mp4": "/tecnos-mockup/static/media/backgroundVideo.8ba25136e09f41a81f3c.mp4",
+    "static/media/backgroundVideo2.mp4": "/tecnos-mockup/static/media/backgroundVideo2.9ddee11714fdc6904b2f.mp4",
     "static/media/webinar6.png": "/tecnos-mockup/static/media/webinar6.9729222f70d477c39363.png",
     "static/media/webinar4.png": "/tecnos-mockup/static/media/webinar4.3450656a99496c1e65a0.png",
     "static/media/webinar2.png": "/tecnos-mockup/static/media/webinar2.7736b551b72c50f065e3.png",
@@ -14,15 +15,20 @@
     "static/media/webinar1.jpg": "/tecnos-mockup/static/media/webinar1.aa0ed5f97be42830eb9a.jpg",
     "static/media/industrie2.jpg": "/tecnos-mockup/static/media/industrie2.970eb131a348441a8712.jpg",
     "static/media/industrie1.jpg": "/tecnos-mockup/static/media/industrie1.d423531fe9aa918df25d.jpg",
+    "static/media/partener1.jpg": "/tecnos-mockup/static/media/partener1.0fa5a421696002763525.jpg",
     "static/media/industrie5.jpg": "/tecnos-mockup/static/media/industrie5.e5952297817f591990c4.jpg",
+    "static/media/partener5.jpg": "/tecnos-mockup/static/media/partener5.55d6a31bf17ae0d9c5e2.jpg",
     "static/media/webinar3.jpg": "/tecnos-mockup/static/media/webinar3.02799134f7a41afea1cc.jpg",
+    "static/media/partener6.jpg": "/tecnos-mockup/static/media/partener6.df0ad3fc9b81e4787f24.jpg",
+    "static/media/partener4.png": "/tecnos-mockup/static/media/partener4.acffa0e1e36eb5bf40fc.png",
+    "static/media/partener3.jpg": "/tecnos-mockup/static/media/partener3.73a5a9d11b87a55ca892.jpg",
     "index.html": "/tecnos-mockup/index.html",
-    "main.c26c1732.css.map": "/tecnos-mockup/static/css/main.c26c1732.css.map",
-    "main.2dcd6013.js.map": "/tecnos-mockup/static/js/main.2dcd6013.js.map",
+    "main.0927b99d.css.map": "/tecnos-mockup/static/css/main.0927b99d.css.map",
+    "main.b9445c7f.js.map": "/tecnos-mockup/static/js/main.b9445c7f.js.map",
     "453.f8463f3d.chunk.js.map": "/tecnos-mockup/static/js/453.f8463f3d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c26c1732.css",
-    "static/js/main.2dcd6013.js"
+    "static/css/main.0927b99d.css",
+    "static/js/main.b9445c7f.js"
   ]
 }
