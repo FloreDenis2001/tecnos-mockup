@@ -1,19 +1,43 @@
 .industry {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
   gap: 2rem;
   padding: 2rem;
   flex-wrap: wrap;
-  margin-top: 18rem;
+  margin-top: 20rem;
 
   &__title {
-    font-size: 2rem;
     color: $color-black;
+
+    span {
+      color: $color-primary;
+      font-size: 2rem;
+
+      @include respond(phone) {
+        font-size: 1.6rem;
+      }
+    }
+
+    h2 {
+      font-size: 3rem;
+      font-weight: 600;
+      margin: 0;
+
+      @include respond(phone) {
+        font-size: 2rem;
+      }
+    }
+    margin-left: 5rem;
     text-align: center;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid $color-primary;
+    text-transform: uppercase;
+    padding-left: 1rem;
+
+    @include respond(phone) {
+      padding-left: 0rem;
+      margin-left: 0rem;
+    }
   }
 
   &__container {
@@ -238,7 +262,6 @@
       }
     }
 
- 
     &__number3 {
       position: relative;
       display: inline-block;
@@ -246,23 +269,23 @@
       min-width: 23rem;
       max-width: 32rem;
       perspective: 1000px;
-    
+
       &__image {
         width: 100%;
         height: 100%;
         overflow: hidden;
-    
+
         img {
           width: 100%;
           height: 100%;
           transition: transform 0.5s ease;
         }
       }
-    
+
       &:hover .industry__card__number3__image img {
-        transform: scale(1.1); 
+        transform: scale(1.1);
       }
-    
+
       &__details {
         position: absolute;
         top: 0;
@@ -270,7 +293,7 @@
         width: 100%;
         height: 100%;
         background: rgba($color-black, 0.8);
-        transition: transform 0.5s ease; 
+        transition: transform 0.5s ease;
         transform-origin: left;
         transform: rotateY(90deg);
         display: flex;
@@ -279,7 +302,7 @@
         align-items: flex-start;
         padding: 1rem;
         opacity: 0;
-    
+
         h3 {
           font-size: 1.6rem;
           color: $color-white;
@@ -291,13 +314,12 @@
           margin-bottom: 0.5rem;
         }
       }
-    
+
       &:hover .industry__card__number3__details {
-        transform: rotateY(0deg); 
-        opacity: 1; 
+        transform: rotateY(0deg);
+        opacity: 1;
       }
     }
-    
 
     &__number4 {
       background-color: $color-white;
@@ -447,14 +469,14 @@
         left: 10px;
         right: 10px;
         top: 100%;
-        content: '';
+        content: "";
         background-color: rgba(51, 51, 51, 0.9);
         -webkit-transition: all 0.25s ease;
         transition: all 0.25s ease;
         -webkit-transition-delay: 0.25s;
         transition-delay: 0.25s;
       }
-       img {
+      img {
         vertical-align: top;
         max-width: 100%;
         backface-visibility: hidden;
@@ -542,13 +564,12 @@
       text-align: left;
       width: 100%;
 
-
       img {
         backface-visibility: hidden;
         max-width: 100%;
         vertical-align: top;
       }
-    
+
       &__content {
         display: flex;
         flex-direction: column;
@@ -558,25 +579,14 @@
         bottom: 0;
         left: 0;
         width: 100%;
-        background:rgba($color-primary,0.7);
+        background: rgba($color-primary, 0.7);
         transform: translateY(100%);
         transition: transform 0.3s ease;
       }
-    
+
       &:hover .industry__card__number6__content {
         transform: translateY(0);
       }
     }
-    
-    
-    
-    
   }
 }
-
-
-
-
-
-
-

@@ -3,7 +3,24 @@
 
 // COLORS
 
+// PURPLE
+// $color-primary: #8a4d76;
+// $color-secondary: #c86f9e;
+
+//YELLOW
+
+// $color-primary: #f2c94c;
+// $color-secondary: #f2994a;
+
+// GREEN
+// $color-primary: #268d66;
+// $color-secondary: #2b6d3a;
+
+// BLUE
 // $color-primary: #219ee7;
+// $color-secondary: #3b7fba;
+
+// RED
 $color-primary: #cc3333;
 $color-secondary: #e98686;
 
@@ -19,6 +36,8 @@ $color-cream: #FFEED9;
 
 $color-green:#41e7a8;
 $color-green2:#5fb976;
+
+$color-yellow:#f2c94c;
 
 $color-red:#f02f2f;
 $color-red2:#eb8577;
@@ -37,3 +56,10 @@ $radial-gradient: radial-gradient(circle,$color-secondary 0%, $color-primary 100
 // FONTS 
 $font-family-primary: "Roboto", sans-serif;
 $font-family-secondary: "Red Hat Display", sans-serif;
+
+
+// GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;

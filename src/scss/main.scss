@@ -1,3 +1,6 @@
+// ABSTRACTS
+@import 'abstracts/mixins';
+
 // //BASE 
 @import 'base/variables';
 @import 'base/base';
@@ -11,9 +14,17 @@
 @import 'components/banners';
 @import 'components/webinars';
 @import 'components/industry';
+@import 'components/companies';
+@import 'components/subscribe';
+@import 'components/testimonials';
+@import 'components/footer';
+@import 'components/buttons';
+@import 'components/aboutus';
 
 
 
+// LAYOUT 
 
+@import 'layout/grid';
 // // PAGES 
 @import 'pages/home';
