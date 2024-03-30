@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tecnos-mockup/static/css/main.0927b99d.css",
-    "main.js": "/tecnos-mockup/static/js/main.b9445c7f.js",
+    "main.css": "/tecnos-mockup/static/css/main.779e142a.css",
+    "main.js": "/tecnos-mockup/static/js/main.b82efc03.js",
     "static/js/453.f8463f3d.chunk.js": "/tecnos-mockup/static/js/453.f8463f3d.chunk.js",
     "static/media/backgroundVideo.mp4": "/tecnos-mockup/static/media/backgroundVideo.8ba25136e09f41a81f3c.mp4",
     "static/media/backgroundVideo2.mp4": "/tecnos-mockup/static/media/backgroundVideo2.9ddee11714fdc6904b2f.mp4",
@@ -23,12 +23,12 @@
     "static/media/partener4.png": "/tecnos-mockup/static/media/partener4.acffa0e1e36eb5bf40fc.png",
     "static/media/partener3.jpg": "/tecnos-mockup/static/media/partener3.73a5a9d11b87a55ca892.jpg",
     "index.html": "/tecnos-mockup/index.html",
-    "main.0927b99d.css.map": "/tecnos-mockup/static/css/main.0927b99d.css.map",
-    "main.b9445c7f.js.map": "/tecnos-mockup/static/js/main.b9445c7f.js.map",
+    "main.779e142a.css.map": "/tecnos-mockup/static/css/main.779e142a.css.map",
+    "main.b82efc03.js.map": "/tecnos-mockup/static/js/main.b82efc03.js.map",
     "453.f8463f3d.chunk.js.map": "/tecnos-mockup/static/js/453.f8463f3d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0927b99d.css",
-    "static/js/main.b9445c7f.js"
+    "static/css/main.779e142a.css",
+    "static/js/main.b82efc03.js"
   ]
 }
