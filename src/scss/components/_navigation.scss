@@ -1,4 +1,6 @@
 .header {
+  
+
   &__nav {
     display: flex;
     justify-content: center;
@@ -7,12 +9,22 @@
     text-align: center;
     font-size: 1.4rem;
 
+    @include respond(tab-land) {
+      font-size: 1.3rem;
+    }
+
+
     &__list {
       display: flex;
       flex-direction: row;
       align-items: center;
       gap: 1rem;
       margin: 0;
+
+      @include respond(tab-land) {
+        gap: 0.5rem;
+        padding: 0;
+      }
     }
 
     &__item {
@@ -32,6 +44,11 @@
       margin: 0;
       &:hover {
         cursor: pointer;
+      }
+
+      @include respond(tab-land) {
+        gap: 0.5rem;
+        padding-inline: 0.3rem;
       }
     }
 
@@ -96,14 +113,8 @@
       z-index: 500;
     }
 
-    // ul li ul li a:hover {
-    //   padding-left: 10px;
-    //   border-left: 2px solid $color-primary;
-    //   transition: all 0.3s ease;
-    // }
+
   }
 }
 
-// ul li ul li a {
-//   transition: all 0.5s ease;
-// }
+

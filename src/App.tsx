@@ -39,6 +39,7 @@ import Colabs from "./components/Colabs";
 import Subscribe from "./components/Subscribe";
 import Testimonials from "./components/Testimonials";
 import AboutUs from "./components/AboutUs";
+import MobileNavigation from "./components/MobileNavigation";
 
 function App() {
   const responsive = {
@@ -62,15 +63,13 @@ function App() {
 
   return (
     <>
-
       <header className="header">
         <div className="header__navigation">
           <div className="header__logoBox">
-          <img
+            <img
               src="https://www.tecnos.ro/wp-content/uploads/2018/05/logo-tecnos.png"
               alt="Romstal"
               className="header__logo"
-              width={250}
             />
           </div>
 
@@ -155,6 +154,8 @@ function App() {
           </div>
         </div>
 
+        <MobileNavigation />
+
         <div className="header__brandMessage">
           <h2> DEDICATED TO QUALITY</h2>
         </div>
@@ -178,7 +179,7 @@ function App() {
           </BootstrapCarousel.Item>
           <BootstrapCarousel.Item>
             <div className="carousel-item-overlay">
-              <video className="d-block w-100" autoPlay loop muted>
+              <video className="d-block w-100 " autoPlay loop muted>
                 <source src={video} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
@@ -465,7 +466,6 @@ function App() {
       <Subscribe />
       <Footer />
       <FontAwesomeIcon icon={faWhatsapp} className="buttonSticky__call" />
-
     </>
   );
 }

@@ -4,6 +4,7 @@
 // //BASE 
 @import 'base/variables';
 @import 'base/base';
+@import 'base/utilities';
 
 // // COMPONENTS 
 
@@ -20,11 +21,10 @@
 @import 'components/footer';
 @import 'components/buttons';
 @import 'components/aboutus';
+@import 'components/burgerMenu';
 
 
 
-// LAYOUT 
 
-@import 'layout/grid';
 // // PAGES 
 @import 'pages/home';
